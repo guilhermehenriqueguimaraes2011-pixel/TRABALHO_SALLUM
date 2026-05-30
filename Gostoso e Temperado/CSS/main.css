@@ -8,12 +8,24 @@
 body {
     background-color: #f5f5f5;
     color: #333;
+    text-align: center;
+}
+
+#carddeck {
+    margin-top: 20px;
 }
 
 header {
-    background-color: brown;
+    background-color: #fdbd45;
+    color: rgb(82, 82, 82);
     text-align: center;
     padding: 30px;
+}
+
+header h1 {
+    font-size: 50px;
+    text-shadow: 5px 2px #f5f5f5;
+    margin-bottom: 20px;
 }
 
 img {
@@ -51,4 +63,28 @@ img {
     transition: transform 0.2s ease;
     cursor: pointer;
     background-color: #dadada;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #222;
+    color: white;
+    margin-top: 0px;
+}
+
+footer h4 {
+    color: #d62828;
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+footer h4:hover {
+    color: #702626;
+    transform: scale(1.25);
+    transition: 0.2s;
 }
