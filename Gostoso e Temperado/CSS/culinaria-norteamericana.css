@@ -11,14 +11,16 @@ body {
 }
 
 header {
-    background-color: #d62828;
+    background-color: #0c69b5;
     color: white;
     text-align: center;
     padding: 30px;
 }
+
 header p {
     font-family: 'Times New Roman', Times, serif;
 }
+
 header h1 {
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
@@ -41,7 +43,7 @@ main {
 }
 
 h2 {
-    color: #d62828;
+    color: #0c69b5;
     margin-bottom: 15px;
 }
 
@@ -90,7 +92,7 @@ footer {
 }
 
 footer h4 {
-    color: #d62828;
+    color: #0c69b5;
     max-width: 300px;
     margin: 40px auto;
     padding: 15px;
